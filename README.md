@@ -1,9 +1,9 @@
 # cups-for-DE
-dnf install cups
-nano /etc/cups/cups-files.conf заменить printadmin на student
-nano /etc/cups/cupsd.conf изменить listen на ip сервера
-Заменить также на Allow all
-![изображение](https://github.com/user-attachments/assets/b6e3ec9f-79a9-4e97-a4fb-f01c973d7ad4)
+dnf install cups n/
+nano /etc/cups/cups-files.conf заменить printadmin на student n/
+nano /etc/cups/cupsd.conf изменить listen на ip сервера n/
+Заменить также на Allow all n/
+![изображение](https://github.com/user-attachments/assets/b6e3ec9f-79a9-4e97-a4fb-f01c973d7ad4) n/
 systemctl enable --now cups
 заходим на клиенте по порту 631
 вкладка администрирование логин/пароль student
